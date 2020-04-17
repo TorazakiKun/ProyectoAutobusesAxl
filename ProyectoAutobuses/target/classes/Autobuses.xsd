@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.example.org/Autobus"
+  xmlns:tns="http://www.example.org/Autobus" elementFormDefault="qualified">
+  
+ 
+  <element name ="AgregarRequest">
+  <complexType>
+  <sequence>
+  	<element name ="nombreRuta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+    <element name ="AgregarResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+   
+   
+  <element name ="ConsultarRequest">
+  <complexType>
+  <sequence>
+  	<element name ="nombreRuta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+  <element name ="ConsultarResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+ 
+   
+   <element name ="EliminarRequest">
+  <complexType>
+  <sequence>
+  	<element name ="nombreRuta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="EliminarResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+  
+    <element name ="ModificarRequest">
+  <complexType>
+  <sequence>
+  	<element name ="nombreRuta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="ModificarResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+   
+   
+   
+   
+   
+   
+   
+  <element name ="AgregarHorariosRequest">
+  <complexType>
+  <sequence>
+  	<element name ="horario" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="AgregarHorariosResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+   
+   
+  <element name ="VerHorariosRequest">
+  <complexType>
+  <sequence>
+  	<element name ="horario" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="VerHorariosResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+   
+   
+      <element name ="ModificarHorariosRequest">
+  <complexType>
+  <sequence>
+  	<element name ="horario" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="ModificarHorariosResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+   
+   
+  <element name ="EliminarHorariosRequest">
+  <complexType>
+  <sequence>
+  	<element name ="horario" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="EliminarHorariosResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+  <element name ="VerDispAsientoRequest">
+  <complexType>
+  <sequence>
+  	<element name ="numAsiento" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="VerDispAsientoResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element> 
+   
+   
+   <element name ="AsignarAsientoRequest">
+  <complexType>
+  <sequence>
+  	<element name ="numAsiento" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="AsignarAsientoResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+  <element name ="EliminarAsientoRequest">
+  <complexType>
+  <sequence>
+  	<element name ="numAsiento" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="EliminarAsientoResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    <element name ="AsignarNumBoletoRequest">
+  <complexType>
+  <sequence>
+  	<element name ="numBoleto" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+
+  
+   <element name ="AsignarNumBoletoResponse">
+  <complexType>
+  <sequence>
+  	<element name ="respuesta" type = "string"></element>
+  </sequence>
+  </complexType>
+   </element>
+ 
+  
+  
+  
+</schema>
